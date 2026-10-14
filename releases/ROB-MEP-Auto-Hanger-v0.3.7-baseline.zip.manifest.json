@@ -3,13 +3,13 @@
   "files": [
     {
       "path": "FIELD_TESTING.md",
-      "sha256": "3007c500946eb7293c0400b1109787e9949ef1928628a0313a2e42712fd6bfce",
-      "size": 19968
+      "sha256": "cb378be49a617aa9025775514495e71dce571ab545683abfcafbf5e57e0c33a8",
+      "size": 20816
     },
     {
       "path": "IFC_STRUCTURE_SELECTION.md",
-      "sha256": "bbbb8400ccb8d6ccd975a73aed2e90ba986485ce1572615666d18b9d31eb0710",
-      "size": 8358
+      "sha256": "28cb28a3bb3722771955852e93754f162291bfa7689ec703f07408d8ddf29751",
+      "size": 9537
     },
     {
       "path": "README_FIRST.md",
@@ -18,8 +18,8 @@
     },
     {
       "path": "RELEASE_NOTES.md",
-      "sha256": "d2c1fd1e8d43bdba4e232b3f436214f56c2b47324fd3843bf5a585d8f6026ebc",
-      "size": 7391
+      "sha256": "f003d74334af5fb8013b299000958880ee21aea94ef08619ab3e7e28c0c93019",
+      "size": 11581
     },
     {
       "path": "ROBMEPHANGERS.extension/HANGERS.tab/Tools.panel/Auto Hanger.pushbutton/bundle.yaml",
@@ -53,8 +53,8 @@
     },
     {
       "path": "ROBMEPHANGERS.extension/HANGERS.tab/Tools.panel/Auto Hanger.pushbutton/script.py",
-      "sha256": "3dd3bb95d413320107ef50df318f9bf5cbb96184ef101076830d77ed3ffd1452",
-      "size": 74476
+      "sha256": "7dee2ee2024c930daeee7c482a2fafffb1d30957713aea7955412c4606d1af45",
+      "size": 83577
     },
     {
       "path": "ROBMEPHANGERS.extension/HANGERS.tab/Tools.panel/Auto Hanger.pushbutton/settings.xaml",
@@ -85,6 +85,11 @@
       "path": "ROBMEPHANGERS.extension/HANGERS.tab/Tools.panel/Auto Hanger.pushbutton/structure_priority.py",
       "sha256": "7cc7ade284cb29bda5908cb809c75ca65e14053fc8b4a3311f23e7b5c5718e58",
       "size": 30556
+    },
+    {
+      "path": "ROBMEPHANGERS.extension/HANGERS.tab/Tools.panel/Auto Hanger.pushbutton/structure_stations.py",
+      "sha256": "dea066e00f9f3945dea781a5a0854bc567ac931201bb30ccb104bfec9e3f9c44",
+      "size": 6149
     },
     {
       "path": "ROBMEPHANGERS.extension/HANGERS.tab/Tools.panel/Repair Draft Rods.pushbutton/bundle.yaml",
@@ -132,7 +137,7 @@
       "size": 71
     }
   ],
-  "sha256": "0cf9bc5e3520d7459746bcf2a24edae78598576f25663948bb917fe060547db7",
+  "sha256": "cbb3134ec377c38ead6a23dcd8a2d0de6c4c89cece1b3b31f5adcf8ffba8dd5d",
   "status": "ifc-picker-field-test",
   "version": "0.3.7"
 }
