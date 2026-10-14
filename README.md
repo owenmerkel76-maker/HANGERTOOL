@@ -2,8 +2,8 @@
 
 [Download the complete updated tool ZIP](releases/ROB-MEP-Auto-Hanger-v0.3.7-baseline.zip?raw=true)
 
-The existing Auto Hanger now scans only selected structural links, with a focused beams/joists and optional roof/deck picker. Custom IFC types remain available for individual approval. Type metadata is cached, and unreadable structure without a location is reported before placement. Existing duct planning, service mapping and hanger placement are preserved.
+The existing tool includes selected IFC model discovery, focused structural selection and individual measured rod targeting. This update adds discovery progress, a single metadata parameter pass, and host/source-local rod coordinates plus per-source miss diagnostics. Preferred-only reports clarify that fallback inventory is inactive. Existing duct planning, service mapping and placement remain preserved.
 
-261 offline tests pass. Revit 2025 placement and performance require detached-model field testing; see the documentation inside the ZIP.
+265 offline tests passed. Revit placement and speed require detached-model field validation; this diagnostic update does not claim to resolve the reported no-target placements. See the documentation in the ZIP.
 
-SHA256: `e3abf95cc9ca991ebc10db942be7e0ec495b45eab016bbe6ebff9bc7def42319`
+SHA256: `4f2d203c4c29fe3d31248049773581ff99ad3b3d96c9fe0f76ab753e4b275fb1`
