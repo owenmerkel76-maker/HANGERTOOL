@@ -1,18 +1,9 @@
-# ROB MEP Auto Hanger v0.3.7 — IFC Picker Upgrade
+# ROB MEP Auto Hanger v0.3.7 field test
 
-The complete ZIP below replaces the previous baseline download on this branch.
-Includes multi-model structural discovery, the WPF type picker, saved project
-preferences, per-rod Solid/Mesh targeting and obstruction-aware fallback.
-All three existing pyRevit buttons and field-test instructions are included.
+[Download the complete updated tool ZIP](releases/ROB-MEP-Auto-Hanger-v0.3.7-baseline.zip?raw=true)
 
-[Download the updated tool ZIP](releases/ROB-MEP-Auto-Hanger-v0.3.7-baseline.zip?raw=true)
+The existing Auto Hanger now scans only selected structural links, with a focused beams/joists and optional roof/deck picker. Custom IFC types remain available for individual approval. Type metadata is cached, and unreadable structure without a location is reported before placement. Existing duct planning, service mapping and hanger placement are preserved.
 
-**245 offline tests passed.** Real Revit 2025 validation is still required.
-Nested structural links must currently be linked directly into the host.
-Install the entire ROBMEPHANGERS.extension folder and reload pyRevit.
-Read RELEASE_NOTES.md, IFC_STRUCTURE_SELECTION.md and FIELD_TESTING.md inside the ZIP.
+261 offline tests pass. Revit 2025 placement and performance require detached-model field testing; see the documentation inside the ZIP.
 
-SHA256: `f762b373a22d88130367417f802c7467cd1dc6f0b20770f3f317bbd228874315`
-
-The filename is retained so the previous download link retrieves this update.
-Earlier versions remain in Git history.
+SHA256: `e3abf95cc9ca991ebc10db942be7e0ec495b45eab016bbe6ebff9bc7def42319`
