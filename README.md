@@ -2,8 +2,8 @@
 
 [Download the complete updated tool ZIP](releases/ROB-MEP-Auto-Hanger-v0.3.7-baseline.zip?raw=true)
 
-The existing tool includes selected IFC model discovery, focused structural selection and individual measured rod targeting. This update adds discovery progress, a single metadata parameter pass, and host/source-local rod coordinates plus per-source miss diagnostics. Preferred-only reports clarify that fallback inventory is inactive. Existing duct planning, service mapping and placement remain preserved.
+Auto Hanger now tests actual geometry despite excluding boxes for small structural approvals (at most 12 approved members per active role across all sources). Miss logs include nearest supplied host box, plan gap, exact-test count and rod coordinates. Measured individual rod targets and path checks remain required. Larger inventories retain screening; this update does not shift planned stations.
 
-265 offline tests passed. Revit placement and speed require detached-model field validation; this diagnostic update does not claim to resolve the reported no-target placements. See the documentation in the ZIP.
+The focused IFC picker and discovery progress remain included. 271 offline tests passed. The reported field no-target cause is not yet established; test one duct and the six directly selected steel members in Revit 2025. See documentation in the ZIP.
 
-SHA256: `4f2d203c4c29fe3d31248049773581ff99ad3b3d96c9fe0f76ab753e4b275fb1`
+SHA256: `0cf9bc5e3520d7459746bcf2a24edae78598576f25663948bb917fe060547db7`

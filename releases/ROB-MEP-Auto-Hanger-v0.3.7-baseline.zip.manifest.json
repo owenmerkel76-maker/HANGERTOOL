@@ -8,8 +8,8 @@
     },
     {
       "path": "IFC_STRUCTURE_SELECTION.md",
-      "sha256": "801f88b2383e3bde483b69914fc83c124920429ffacc857c9a84d9ed313ddb43",
-      "size": 7877
+      "sha256": "bbbb8400ccb8d6ccd975a73aed2e90ba986485ce1572615666d18b9d31eb0710",
+      "size": 8358
     },
     {
       "path": "README_FIRST.md",
@@ -18,8 +18,8 @@
     },
     {
       "path": "RELEASE_NOTES.md",
-      "sha256": "a38cfffe2af996217a6d7772881243cb8d22632195ca477a47bbf26064da3664",
-      "size": 5246
+      "sha256": "d2c1fd1e8d43bdba4e232b3f436214f56c2b47324fd3843bf5a585d8f6026ebc",
+      "size": 7391
     },
     {
       "path": "ROBMEPHANGERS.extension/HANGERS.tab/Tools.panel/Auto Hanger.pushbutton/bundle.yaml",
@@ -48,13 +48,13 @@
     },
     {
       "path": "ROBMEPHANGERS.extension/HANGERS.tab/Tools.panel/Auto Hanger.pushbutton/rod_geometry.py",
-      "sha256": "32928c4d6d32f191c2576ea0ff79001e92eecc29eb4097cf4d56fac83c96d293",
-      "size": 19959
+      "sha256": "5c66fe7a4010779fc709e825cc2df471d9e6fe5c7f339427d35d926b9469f41d",
+      "size": 20117
     },
     {
       "path": "ROBMEPHANGERS.extension/HANGERS.tab/Tools.panel/Auto Hanger.pushbutton/script.py",
-      "sha256": "4c3a0719a6123cfdf2aabdccf2dbf6e8818cf88ea5ce196978f572230c3beb34",
-      "size": 74218
+      "sha256": "3dd3bb95d413320107ef50df318f9bf5cbb96184ef101076830d77ed3ffd1452",
+      "size": 74476
     },
     {
       "path": "ROBMEPHANGERS.extension/HANGERS.tab/Tools.panel/Auto Hanger.pushbutton/settings.xaml",
@@ -83,8 +83,8 @@
     },
     {
       "path": "ROBMEPHANGERS.extension/HANGERS.tab/Tools.panel/Auto Hanger.pushbutton/structure_priority.py",
-      "sha256": "a811c952649cebe56c6ad74c64e3293cec3aaa16806678482f2eff48d3a67045",
-      "size": 28307
+      "sha256": "7cc7ade284cb29bda5908cb809c75ca65e14053fc8b4a3311f23e7b5c5718e58",
+      "size": 30556
     },
     {
       "path": "ROBMEPHANGERS.extension/HANGERS.tab/Tools.panel/Repair Draft Rods.pushbutton/bundle.yaml",
@@ -98,8 +98,8 @@
     },
     {
       "path": "ROBMEPHANGERS.extension/HANGERS.tab/Tools.panel/Repair Draft Rods.pushbutton/rod_geometry.py",
-      "sha256": "32928c4d6d32f191c2576ea0ff79001e92eecc29eb4097cf4d56fac83c96d293",
-      "size": 19959
+      "sha256": "5c66fe7a4010779fc709e825cc2df471d9e6fe5c7f339427d35d926b9469f41d",
+      "size": 20117
     },
     {
       "path": "ROBMEPHANGERS.extension/HANGERS.tab/Tools.panel/Repair Draft Rods.pushbutton/script.py",
@@ -108,8 +108,8 @@
     },
     {
       "path": "ROBMEPHANGERS.extension/HANGERS.tab/Tools.panel/Repair Draft Rods.pushbutton/structure_priority.py",
-      "sha256": "a811c952649cebe56c6ad74c64e3293cec3aaa16806678482f2eff48d3a67045",
-      "size": 28307
+      "sha256": "7cc7ade284cb29bda5908cb809c75ca65e14053fc8b4a3311f23e7b5c5718e58",
+      "size": 30556
     },
     {
       "path": "ROBMEPHANGERS.extension/HANGERS.tab/Tools.panel/Review Extra Hangers.pushbutton/bundle.yaml",
@@ -132,7 +132,7 @@
       "size": 71
     }
   ],
-  "sha256": "4f2d203c4c29fe3d31248049773581ff99ad3b3d96c9fe0f76ab753e4b275fb1",
+  "sha256": "0cf9bc5e3520d7459746bcf2a24edae78598576f25663948bb917fe060547db7",
   "status": "ifc-picker-field-test",
   "version": "0.3.7"
 }
