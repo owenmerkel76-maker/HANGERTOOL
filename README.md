@@ -2,8 +2,12 @@
 
 [Download the complete updated tool ZIP](releases/ROB-MEP-Auto-Hanger-v0.3.7-baseline.zip?raw=true)
 
-This update separates proven Revit references and readable curve/point-only ambiguous imports from physical rod obstructions. Real 3D geometry and unreadable physical candidates remain blocking; names and missing boxes do not justify exclusion. Logs show excluded-reference examples, unresolved Revit classes, and informative nearby station failures. Existing measured all-rod station search, service mapping, placement/draft checks and rollback remain included.
+[Read the public-tool comparison](releases/PUBLIC_TOOL_COMPARISON.md) | [Follow the controlled next test](releases/NEXT_TEST.md)
 
-321 offline tests passed and original archive provenance was verified. Actual project CAD/reference classifications and successful Revit placement remain unverified. Keep clash checks enabled and test a short duct near the previously measured linked-steel hit. See the documentation in the ZIP.
+The latest update follows a source comparison with Murray-Tools, the public Hanger Layout add-in and Autodesk SDK 2025 samples. Hosted creation and rod-detachment patterns match; retained-placement failures occur in expanded validation. GraphicsStyle definitions are now filtered. Optional unchecked, run-only review can classify ambiguous unreadable drawing/coordination references; known physical geometry, MEP and approved targets are ineligible.
 
-SHA256: `0efa66f4f3a1019a9fa088d8723c27338b4f90e7ac33c3f91cc8e636a2862dc6`
+Use the integrated Single hanger test with exactly one duct and a clicked station. It reports creation, requested/actual origin, every rod's raw and validated targets, sizing and clearance. It always rolls back; zero retained is expected even on PASS. Normal placement remains available after a reviewed test.
+
+347 offline tests passed. Original archive provenance and complete ZIP integrity were verified. Public implementations were source-reviewed, not executed in the user's model. Actual Revit field behavior remains unverified.
+
+SHA256: `789148a65b317a7625fe420a7a93d81733950c2e322b4eea5eeb7ac10c67551f`

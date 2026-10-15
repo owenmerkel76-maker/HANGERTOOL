@@ -3,13 +3,23 @@
   "files": [
     {
       "path": "FIELD_TESTING.md",
-      "sha256": "3fa6aaf262696cd295b10e261ec6538b76c4f051da5c6ad61a1268c5441f8d8f",
-      "size": 21616
+      "sha256": "4d840158a5b230f4c1e870b5749dd2adcc57c127a55da20340bd6736b7f6b30e",
+      "size": 22499
     },
     {
       "path": "IFC_STRUCTURE_SELECTION.md",
-      "sha256": "f493e0275979d9a8ea016a98be6c450ab9a6b685f283ef686aa6e3043d8be84e",
-      "size": 10468
+      "sha256": "64fc06afc88504972e1fb81bf0704dd3706d41f87973f3b5f201277747e1ccfc",
+      "size": 11713
+    },
+    {
+      "path": "NEXT_TEST.md",
+      "sha256": "3b5dea1e5f5c4dc260ef1140ce0d1afda97af2a203f1b43f0b92b2da7746aa5f",
+      "size": 2624
+    },
+    {
+      "path": "PUBLIC_TOOL_COMPARISON.md",
+      "sha256": "7eacadf10c1da9cc5384ea2b7436ecd04c5fd1c15fd7a932635ffdad3ebbcdac",
+      "size": 7244
     },
     {
       "path": "README_FIRST.md",
@@ -18,8 +28,8 @@
     },
     {
       "path": "RELEASE_NOTES.md",
-      "sha256": "1e9f61b6fb9ab90c47cbbd1f997db2d97d657d83f24463aefbb8d47b8510786c",
-      "size": 14849
+      "sha256": "05eebe07ef19d869e431a89b3c37efa597f8a8fffc9bc6a33cfcb0ba2f6b54e5",
+      "size": 18306
     },
     {
       "path": "ROBMEPHANGERS.extension/HANGERS.tab/Tools.panel/Auto Hanger.pushbutton/bundle.yaml",
@@ -38,8 +48,8 @@
     },
     {
       "path": "ROBMEPHANGERS.extension/HANGERS.tab/Tools.panel/Auto Hanger.pushbutton/linked_obstacles.py",
-      "sha256": "983c53d9b416f86f2c938a83c758b168a32dd9f753fbc13ba14843dce6adfb74",
-      "size": 24176
+      "sha256": "a6235dce21ba46f4846b17f526820628e3794b3d006401144f210d534dce8317",
+      "size": 27868
     },
     {
       "path": "ROBMEPHANGERS.extension/HANGERS.tab/Tools.panel/Auto Hanger.pushbutton/planner.py",
@@ -53,13 +63,13 @@
     },
     {
       "path": "ROBMEPHANGERS.extension/HANGERS.tab/Tools.panel/Auto Hanger.pushbutton/script.py",
-      "sha256": "ce12fec2850f8909350bcd9e29b07c004e29f52b49a5fb8605163c62817d07bf",
-      "size": 85103
+      "sha256": "307f556b25793ef9a67bf9e783cb338bbfe91f5b1026c558bd72169c7c4ca009",
+      "size": 96109
     },
     {
       "path": "ROBMEPHANGERS.extension/HANGERS.tab/Tools.panel/Auto Hanger.pushbutton/settings.xaml",
-      "sha256": "bf1c771867090543967b0f6d71a429e20e91ff32741592648f5e3ce4e8dc8a89",
-      "size": 9047
+      "sha256": "ac1b6d8aac6c02662c542c51f9841b4554dc323cd28eb23197d87756d288e496",
+      "size": 10262
     },
     {
       "path": "ROBMEPHANGERS.extension/HANGERS.tab/Tools.panel/Auto Hanger.pushbutton/structure_catalog.py",
@@ -137,7 +147,7 @@
       "size": 71
     }
   ],
-  "sha256": "0efa66f4f3a1019a9fa088d8723c27338b4f90e7ac33c3f91cc8e636a2862dc6",
+  "sha256": "789148a65b317a7625fe420a7a93d81733950c2e322b4eea5eeb7ac10c67551f",
   "status": "ifc-picker-field-test",
   "version": "0.3.7"
 }
