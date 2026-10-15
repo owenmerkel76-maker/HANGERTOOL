@@ -18,8 +18,8 @@
     },
     {
       "path": "PUBLIC_TOOL_COMPARISON.md",
-      "sha256": "7eacadf10c1da9cc5384ea2b7436ecd04c5fd1c15fd7a932635ffdad3ebbcdac",
-      "size": 7244
+      "sha256": "59309b85943283889cf5bc60d951415c9ebdfa0f520c9e45880add8a6761e399",
+      "size": 7543
     },
     {
       "path": "README_FIRST.md",
@@ -28,8 +28,8 @@
     },
     {
       "path": "RELEASE_NOTES.md",
-      "sha256": "05eebe07ef19d869e431a89b3c37efa597f8a8fffc9bc6a33cfcb0ba2f6b54e5",
-      "size": 18306
+      "sha256": "62ac59fe4551a78fc79539b4fbed0cbc484052ecdf7d840ddd064865bde3e3ec",
+      "size": 19330
     },
     {
       "path": "ROBMEPHANGERS.extension/HANGERS.tab/Tools.panel/Auto Hanger.pushbutton/bundle.yaml",
@@ -63,8 +63,8 @@
     },
     {
       "path": "ROBMEPHANGERS.extension/HANGERS.tab/Tools.panel/Auto Hanger.pushbutton/script.py",
-      "sha256": "307f556b25793ef9a67bf9e783cb338bbfe91f5b1026c558bd72169c7c4ca009",
-      "size": 96109
+      "sha256": "fac932e125e3ba65105402f63665ef5180c84720b6071a0d37f834551a4f475d",
+      "size": 96321
     },
     {
       "path": "ROBMEPHANGERS.extension/HANGERS.tab/Tools.panel/Auto Hanger.pushbutton/settings.xaml",
@@ -147,7 +147,7 @@
       "size": 71
     }
   ],
-  "sha256": "789148a65b317a7625fe420a7a93d81733950c2e322b4eea5eeb7ac10c67551f",
+  "sha256": "ae422c63f53aaa7921b8b6c0cd454e52bbbe158e60422dfe3638f84676e6426b",
   "status": "ifc-picker-field-test",
   "version": "0.3.7"
 }

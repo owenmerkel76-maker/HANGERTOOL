@@ -71,7 +71,7 @@ inspection; that observation alone does not prove an API connector reversal.
 The test does not prove native structural attachment, hanger hardware capacity,
 or complete run support coverage.
 
-347 offline tests passed. Added regression cases use the supplied failure
+350 offline tests passed. Added regression cases use the supplied failure
 pattern (GraphicsStyle + unreadable CAD/coordination references + a valid native
 deck hit), verify both rods, enforce review scope/source qualification, preserve
 all original setting controls, and test cancellation/rollback and origin-offset
@@ -80,3 +80,8 @@ reporting. Offline API doubles do not verify actual Revit engine/content behavio
 Read [NEXT_TEST.md](NEXT_TEST.md) before the next field run. Send that single
 stage-by-stage result first. A PASS is evidence to proceed to one small normal
 layout with **Keep UNATTACHED** enabled when manual attachment is intended.
+
+The single-station wrapper now exercises the actual extractor/profile functions
+in regression tests. Its (segment, issue) return is unpacked, and invalid ducts
+exit before station picking or transactions. This corrects the reported
+TypeError; it does not establish successful live Revit placement.

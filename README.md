@@ -2,12 +2,12 @@
 
 [Download the complete updated tool ZIP](releases/ROB-MEP-Auto-Hanger-v0.3.7-baseline.zip?raw=true)
 
-[Read the public-tool comparison](releases/PUBLIC_TOOL_COMPARISON.md) | [Follow the controlled next test](releases/NEXT_TEST.md)
+[Public-tool comparison](releases/PUBLIC_TOOL_COMPARISON.md) | [Controlled next test](releases/NEXT_TEST.md)
 
-The latest update follows a source comparison with Murray-Tools, the public Hanger Layout add-in and Autodesk SDK 2025 samples. Hosted creation and rod-detachment patterns match; retained-placement failures occur in expanded validation. GraphicsStyle definitions are now filtered. Optional unchecked, run-only review can classify ambiguous unreadable drawing/coordination references; known physical geometry, MEP and approved targets are ineligible.
+This hotfix corrects the single-hanger diagnostic extractor contract: extract_segment returns (segment, issue), which is now unpacked before dictionary access. Invalid extraction exits before station picking or model transactions. Wrapper tests now execute the actual deployed extractor/profile reader rather than mocking the wrong return format.
 
-Use the integrated Single hanger test with exactly one duct and a clicked station. It reports creation, requested/actual origin, every rod's raw and validated targets, sizing and clearance. It always rolls back; zero retained is expected even on PASS. Normal placement remains available after a reviewed test.
+The integrated one-duct clicked-station diagnostic still reports creation, every rod, measured and validated targets, sizing/clearance and origin offset, then always rolls back. Reference review remains explicit and execution-only. Normal placement and native/draft safeguards remain unchanged.
 
-347 offline tests passed. Original archive provenance and complete ZIP integrity were verified. Public implementations were source-reviewed, not executed in the user's model. Actual Revit field behavior remains unverified.
+350 offline tests passed. Original archive and ZIP integrity verified. Actual Revit placement remains unverified; repeat the same single-hanger field test.
 
-SHA256: `789148a65b317a7625fe420a7a93d81733950c2e322b4eea5eeb7ac10c67551f`
+SHA256: `ae422c63f53aaa7921b8b6c0cd454e52bbbe158e60422dfe3638f84676e6426b`
