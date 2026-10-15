@@ -1,4 +1,58 @@
-# Next field test — one hanger, always rolled back
+# Office review — simplified Auto Hanger menus
+
+Install the complete extension from the existing GitHub download and reload
+pyRevit (restart Revit if helpers remain cached). Use a detached Revit 2025 model.
+This update simplifies menus; it does not establish successful IFC attachment.
+
+## Everyday workflow
+
+1. Select fabrication duct and open **Auto Hanger**. Choose the structural
+   model(s) in the short model list.
+2. In **Connection targets**, check the intended **Beams / joists** and optional
+   **Roof / deck fallback** groups. Expand a group to review individual types,
+   or use **Select in Model** for specific members. **Connect rods to** clearly
+   shows steel-first, steel-only or deck-only behavior. Choose **Continue to hangers**.
+3. In **Hangers and placement**, check the suggested hanger for each selected
+   duct service, spacing cap and maximum rod length. Only relevant duct shapes
+   appear. Keep **Preview only** checked and choose **Preview layout**.
+4. Review the proposal. To place, reopen the tool, confirm targets and hanger
+   choices, clear **Preview only**, then choose **Place hangers**. Leaving
+   **Allow measured, unattached hangers** enabled permits marked drafts only
+   when every rod has a measured approved target and passes enabled checks.
+
+Project structure approvals are remembered when confirmed; hanger-service
+settings and Preview retain their existing per-launch defaults. Advanced options
+are optional, not required steps. The spacing schedule remains preliminary and
+must match the approved project support/hardware schedule.
+
+## What is tucked away
+
+- **Advanced structure options**: custom/unclassified IFC types, per-type role
+  overrides, direct-pick role and the initial rod limit. Saved nonstandard type
+  roles remain visible even when advanced controls are closed. The main settings
+  rod limit is the final confirmed value.
+- **Advanced layout options**: optional large-duct trapeze threshold, end/turn
+  offset, size-based schedule details, fitting fallback and clearance switches.
+  Enabling the trapeze override reveals the per-service trapeze choices.
+- **Office support / diagnostics**: temporary single-hanger test and deliberate
+  per-run review of ambiguous drawing references. Leave these off for normal use.
+
+## Office pilot feedback
+
+Try one small area first. Record whether a first-time user understands the
+steel/deck selection, finds the correct hanger, distinguishes Preview from Place,
+and can identify retained drafts. Note the time between each screen, model size,
+and number of selected links. A less crowded menu does not prove faster IFC
+geometry discovery; opening times still require measurement in Revit.
+
+If placement is blocked, retain the output and review the cause with the tool
+owner. Do not disable clearance or classify uncertain physical objects as
+references simply to get a hanger placed. The previous one-hanger result proved
+creation and correct duct hosting at its chosen station, but both rods missed the
+one selected steel member by 2.630 feet in plan. Menu changes do not solve a
+missing target above a rod.
+
+## Optional support procedure — one hanger, always rolled back
 
 Use this test to identify the failing stage before testing another full area.
 It is part of the existing Auto Hanger button. It does not retain a hanger.
@@ -8,7 +62,7 @@ It is part of the existing Auto Hanger button. It does not retain a hanger.
 2. Preselect **exactly one straight fabrication duct** below the native deck
    used in the last result. Open Auto Hanger.
 3. Approve the intended readable steel and native roof/deck fallback. Use
-   **Preferred framing first, then fallback**, matching the last roof-hit case.
+   **Steel first, then selected deck**, matching the last roof-hit case.
    Leave unclassified target types unchecked.
 4. Keep the correct hanger button for that duct's fabrication service. Enable
    **Single hanger test — choose one duct and click a station**. Run it.
