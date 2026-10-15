@@ -3,13 +3,13 @@
   "files": [
     {
       "path": "FIELD_TESTING.md",
-      "sha256": "cb378be49a617aa9025775514495e71dce571ab545683abfcafbf5e57e0c33a8",
-      "size": 20816
+      "sha256": "3fa6aaf262696cd295b10e261ec6538b76c4f051da5c6ad61a1268c5441f8d8f",
+      "size": 21616
     },
     {
       "path": "IFC_STRUCTURE_SELECTION.md",
-      "sha256": "28cb28a3bb3722771955852e93754f162291bfa7689ec703f07408d8ddf29751",
-      "size": 9537
+      "sha256": "f493e0275979d9a8ea016a98be6c450ab9a6b685f283ef686aa6e3043d8be84e",
+      "size": 10468
     },
     {
       "path": "README_FIRST.md",
@@ -18,8 +18,8 @@
     },
     {
       "path": "RELEASE_NOTES.md",
-      "sha256": "f003d74334af5fb8013b299000958880ee21aea94ef08619ab3e7e28c0c93019",
-      "size": 11581
+      "sha256": "1e9f61b6fb9ab90c47cbbd1f997db2d97d657d83f24463aefbb8d47b8510786c",
+      "size": 14849
     },
     {
       "path": "ROBMEPHANGERS.extension/HANGERS.tab/Tools.panel/Auto Hanger.pushbutton/bundle.yaml",
@@ -38,8 +38,8 @@
     },
     {
       "path": "ROBMEPHANGERS.extension/HANGERS.tab/Tools.panel/Auto Hanger.pushbutton/linked_obstacles.py",
-      "sha256": "d182750d07fecce0ccf1e9b57d6e4dc16d1a2c4bedb6f417813d3d298b3363e4",
-      "size": 17701
+      "sha256": "983c53d9b416f86f2c938a83c758b168a32dd9f753fbc13ba14843dce6adfb74",
+      "size": 24176
     },
     {
       "path": "ROBMEPHANGERS.extension/HANGERS.tab/Tools.panel/Auto Hanger.pushbutton/planner.py",
@@ -53,8 +53,8 @@
     },
     {
       "path": "ROBMEPHANGERS.extension/HANGERS.tab/Tools.panel/Auto Hanger.pushbutton/script.py",
-      "sha256": "7dee2ee2024c930daeee7c482a2fafffb1d30957713aea7955412c4606d1af45",
-      "size": 83577
+      "sha256": "ce12fec2850f8909350bcd9e29b07c004e29f52b49a5fb8605163c62817d07bf",
+      "size": 85103
     },
     {
       "path": "ROBMEPHANGERS.extension/HANGERS.tab/Tools.panel/Auto Hanger.pushbutton/settings.xaml",
@@ -137,7 +137,7 @@
       "size": 71
     }
   ],
-  "sha256": "cbb3134ec377c38ead6a23dcd8a2d0de6c4c89cece1b3b31f5adcf8ffba8dd5d",
+  "sha256": "0efa66f4f3a1019a9fa088d8723c27338b4f90e7ac33c3f91cc8e636a2862dc6",
   "status": "ifc-picker-field-test",
   "version": "0.3.7"
 }

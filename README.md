@@ -2,10 +2,8 @@
 
 [Download the complete updated tool ZIP](releases/ROB-MEP-Auto-Hanger-v0.3.7-baseline.zip?raw=true)
 
-Auto Hanger now probes nearby same-piece duct stations with real temporary fabrication hangers, verifies every individual rod's measured target/length and enabled clearance checks, and rolls every probe back. A run-wide layout preserves spacing/end/branch constraints before final independently verified native or measured draft placement. No complete measured layout means the run's new straight hangers are withheld; parallel-offset steel can remain unreachable. Existing hangers are unchanged.
+This update separates proven Revit references and readable curve/point-only ambiguous imports from physical rod obstructions. Real 3D geometry and unreadable physical candidates remain blocking; names and missing boxes do not justify exclusion. Logs show excluded-reference examples, unresolved Revit classes, and informative nearby station failures. Existing measured all-rod station search, service mapping, placement/draft checks and rollback remain included.
 
-Search limits: 4 feet or half allowed spacing, 24 positions/job, 160 probes/run, 600 total. Progress is cancellable; Preview remains preliminary and creates no probes. Focused IFC selection and targeting diagnostics remain included.
+321 offline tests passed and original archive provenance was verified. Actual project CAD/reference classifications and successful Revit placement remain unverified. Keep clash checks enabled and test a short duct near the previously measured linked-steel hit. See the documentation in the ZIP.
 
-301 offline tests passed and original archive provenance was verified. Actual Revit 2025 placement, IFC export coordinates, WPF/transaction behavior and timing require detached-model field testing; see documentation inside the ZIP.
-
-SHA256: `cbb3134ec377c38ead6a23dcd8a2d0de6c4c89cece1b3b31f5adcf8ffba8dd5d`
+SHA256: `0efa66f4f3a1019a9fa088d8723c27338b4f90e7ac33c3f91cc8e636a2862dc6`
